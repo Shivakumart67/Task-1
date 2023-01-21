@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  display: grid;
+  position: relative;
+ 
+}
+body div[id = "test1"] {
+  background-color: #d9d9d9;
+}
+.main {
+  position: absolute;
+  width: 634px;
+  height: 560px;
+  left: 67px;
+  top: 180px;
+  background-image: url(1.jpg);
+  background-size: cover;
+}
+.cube1 {
+  position: absolute;
+  width: 300px;
+  height: 261px;
+  left: 735px;
+  top: 180px;
+  background-image: url(2.jpg);
+  background-size: cover;
+}
+.cube2 {
+  position: absolute;
+  width: 300px;
+  height: 261px;
+  left: 1069px;
+  top: 180px;
+  background-image: url(3.jpg);
+  background-size: cover;
+}
+.cube3 {
+  position: absolute;
+  width: 300px;
+  height: 261px;
+  left: 735px;
+  top: 479px;
+  background-image: url(4.jpg);
+  background-size: cover;
+}
+.cube4 {
+  position: absolute;
+  width: 300px;
+  height: 261px;
+  left: 1069px;
+  top: 479px;
+  background-image: url(5.jpg);
+  background-size: cover;
+}
+.footer1 {
+  position: absolute;
+  width: 634px;
+  height: 238px;
+  left: 67px;
+  top: 771px;
+  background-image: url(6.jpg);
+  background-size: cover;
+}
+.footer2 {
+  position: absolute;
+  width: 634px;
+  height: 238px;
+  left: 735px;
+  top: 771px;
+  background-image: url(7.jpg);
+  background-size: cover;
+}
+.heading {
+  position: absolute;
+  width: 600px;
+  height: 94px;
+  left: 59px;
+  top: 56px;
+  background-color: white !important;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+  color: #000000;
+}
+.readmore {
+  position: absolute;   
+  width: 276px;
+  height: 51px;
+  left: 1093px;
+  top: 942px;
+  z-index: 3;
+  cursor: pointer;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 51px;
+  /* identical to box height */
+
+  color: #000000;
+}
